@@ -7,6 +7,16 @@
     <groupId>com.gdw.database</groupId>
     <artifactId>mybatis-query-generator</artifactId>
     <version>1.0</version>
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk-version>1.8</jdk-version>
@@ -212,4 +222,6 @@
             <version>1.16.6</version>
         </dependency>
     </dependencies>
+
+
 </project>
